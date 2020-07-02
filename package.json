@@ -1,0 +1,52 @@
+{
+  "name": "repo-template",
+  "version": "2.0.1",
+  "description": "A Basic Repository Template for Generic Projects",
+  "author": "PatEvs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patevs/repo-template.git"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6.8.0",
+    "git": ">=2.11"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "release": "np",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/core": "^9.0.1",
+    "commitizen": "^4.1.2",
+    "commitlint-config-gitmoji": "^1.0.1",
+    "cz-emoji": "^1.2.1",
+    "husky": "^4.2.5",
+    "np": "^6.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "./node_modules/commitlint-config-gitmoji"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    },
+    "cz-emoji": {
+      "skipQuestions": [
+        "body",
+        "issues"
+      ]
+    }
+  }
+}
