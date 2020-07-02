@@ -1,20 +1,40 @@
-# Repo Template
+# Learn Electron
 
-> A Basic Repository Template for Generic Projects
+> `Electron` is an open-source framework developed and maintained by GitHub. Electron allows for the development of desktop GUI applications using web technologies: It combines the Chromium rendering engine and the `Node.js` runtime.
 
 ---
 
-## Links & Resources
+## Links and Resources
 
-* [`commitizen/cz-cli`](https://github.com/commitizen/cz-cli)
-  * [`cz-emoji`](https://github.com/ngryman/cz-emoji)
-* [`commitlint`](https://github.com/conventional-changelog/commitlint)
-* [`husky`](https://github.com/typicode/husky)
+* [`Electron`](https://github.com/electron/electron)
+  * [Documentation](https://electronjs.org/docs)
 
-[](.)
+* [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start)
 
-* [`np`](https://github.com/sindresorhus/np) A better npm publish.
-* [`release-it`](https://github.com/release-it/release-it) Automate versioning and package publishing.
+---
+
+## Installation
+
+* [Tutorial/Installation](https://electronjs.org/docs/tutorial/installation)
+
+```bash
+$ npm i -g electron        # Globally install
+$ npm i -D electron@latest # Project install
+# Electron   5.0.2
+# Node       12.0.0
+# Chromium   73.0.3683.121
+```
+
+## Application Structure
+
+A basic `Electron` app would have the following folder structure:
+
+```text
+your-app/
+├── package.json
+├── main.js
+└── index.html
+```
 
 ---
 
