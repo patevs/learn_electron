@@ -1,12 +1,12 @@
 {
-  "name": "repo-template",
-  "version": "2.0.1",
-  "description": "A Basic Repository Template for Generic Projects",
+  "name": "learn-electron",
+  "version": "0.0.0",
+  "description": "Links, resources, and code related to my learning of the electron framework.",
   "author": "PatEvs",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patevs/repo-template.git"
+    "url": "git+https://github.com/patevs/learn_electron.git"
   },
   "engines": {
     "node": ">=10",
