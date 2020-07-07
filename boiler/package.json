@@ -1,0 +1,11 @@
+{
+  "name": "electron-boiler",
+  "version": "0.0.0",
+  "description": "Electron bootstrap and jquery boilerplate",
+  "author": "PatEvs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  }
+}
+
