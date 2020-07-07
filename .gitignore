@@ -12,4 +12,7 @@ yarn-error.log*
 # Dependency directories
 node_modules/
 
+# Development libraries
+lib/
+
 # EOF #
