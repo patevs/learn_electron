@@ -19,6 +19,7 @@
     "preinstall": "npm run clean",
     "postinstall": "npm run copy-libs",
     "start:basic": "electron basic/",
+    "start:boiler": "electron boiler/",
     "commit": "git-cz",
     "release": "np",
     "lint": "eslint .",
