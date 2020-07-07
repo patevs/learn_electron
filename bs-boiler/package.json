@@ -1,7 +1,9 @@
 {
   "name": "bs-boiler",
-  "version": "0.1.4",
+  "version": "0.0.0",
   "description": "Electron bootstrap boilerplate",
+  "author": "PatEvs",
+  "license": "UNLICENSED",
   "main": "main.js",
   "scripts": {
     "clean": "npx trash-cli node_modules lib",
@@ -13,17 +15,15 @@
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "PatEvs",
-  "license": "UNLICENSED",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "photonkit": "^0.1.2"
+  },
   "devDependencies": {
     "electron": "^9.1.0",
     "electron-reloader": "^1.0.1",
     "eslint": "^7.4.0",
     "ncp": "^2.0.0"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.0",
-    "jquery": "^3.5.1",
-    "photonkit": "^0.1.2"
   }
 }
