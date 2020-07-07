@@ -1,14 +1,14 @@
 {
   "name": "quick-start",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Electron quick start app",
+  "author": "",
+  "license": "UNLICENSED",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "UNLICENSED",
   "devDependencies": {
     "electron": "^9.1.0"
   }
