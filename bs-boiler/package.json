@@ -4,7 +4,7 @@
   "description": "Electron bootstrap boilerplate",
   "main": "main.js",
   "scripts": {
-    "clean": "npx trash node_modules lib",
+    "clean": "npx trash-cli node_modules lib",
     "copy-libs": "mkdir lib && ncp node_modules/photonkit/ lib/photonkit/",
     "preinstall": "npm run clean",
     "postinstall": "npm run copy-libs",
