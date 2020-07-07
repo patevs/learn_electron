@@ -18,7 +18,7 @@
     "copy-libs": "mkdirp boiler/lib && ncp node_modules/photonkit/ boiler/lib/photonkit/",
     "preinstall": "npm run clean",
     "postinstall": "npm run copy-libs",
-    "start:basic": "electron basic/",
+    "start:basic": "cd basic && yarn run start",
     "start:boiler": "electron boiler/",
     "commit": "git-cz",
     "release": "np",
