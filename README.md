@@ -20,9 +20,9 @@
 ```bash
 $ npm i -g electron        # Globally install
 $ npm i -D electron@latest # Project install
-# Electron   5.0.2
-# Node       12.0.0
-# Chromium   73.0.3683.121
+# Electron   9.1.0
+# Node       12.14.1
+# Chromium   83.0.4103.122
 ```
 
 ## Application Structure
@@ -42,8 +42,12 @@ your-app/
 
 ```md
 .
+├── basic
+├── boiler
 ├── .editorconfig
+├── .eslintrc
 ├── .gitignore
+├── .np-config.json
 ├── LICENSE
 ├── package.json
 └── README.md
