@@ -16,6 +16,7 @@
   "scripts": {
     "clean": "npx trash-cli boiler/lib",
     "copy-libs": "mkdir boiler/lib && ncp node_modules/photonkit/ boiler/lib/photonkit/",
+    "preinstall": "npm run clean",
     "start:basic": "electron basic/",
     "commit": "git-cz",
     "release": "np",
