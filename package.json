@@ -19,7 +19,9 @@
     "release": "np",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
     "@commitlint/core": "^9.0.1",
