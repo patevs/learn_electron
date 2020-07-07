@@ -44,6 +44,9 @@
     "ncp": "^2.0.0",
     "np": "^6.3.0"
   },
+  "peerDependencies": {
+    "popper.js": "^1.16.1"
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
@@ -64,8 +67,5 @@
         "issues"
       ]
     }
-  },
-  "peerDependencies": {
-    "popper.js": "^1.16.1"
   }
 }
