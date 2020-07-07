@@ -30,6 +30,7 @@
     "electron-reloader": "^1.0.1",
     "eslint": "^7.4.0",
     "husky": "^4.2.5",
+    "ncp": "^2.0.0",
     "np": "^6.3.0"
   },
   "husky": {
