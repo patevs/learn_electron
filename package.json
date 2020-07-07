@@ -27,6 +27,7 @@
     "commitlint-config-gitmoji": "^1.0.1",
     "cz-emoji": "^1.2.1",
     "electron": "^9.1.0",
+    "electron-reloader": "^1.0.1",
     "husky": "^4.2.5",
     "np": "^6.3.0"
   },
