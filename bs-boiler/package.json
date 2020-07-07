@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "bootstrap": "^3.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "photonkit": "^0.1.2"
   }
 }
