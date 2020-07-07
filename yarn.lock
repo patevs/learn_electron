@@ -5046,6 +5046,11 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
+photonkit@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/photonkit/-/photonkit-0.1.2.tgz#5662c2b02babc11c38cf3f379392e0083ae45512"
+  integrity sha1-VmLCsCurwRw4zz83k5LgCDrkVRI=
+
 picomatch@^2.0.4, picomatch@^2.2.1:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
