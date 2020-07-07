@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "trash node_modules lib",
     "copy-libs": "mkdir lib && ncp node_modules/photonkit/ lib/photonkit/",
-    "preinstall": "npm run clean",
+    "preinstall_": "npm run clean",
     "postinstall": "npm run copy-libs",
     "prestart": "npm install",
     "start": "electron .",
