@@ -44,9 +44,11 @@ your-app/
 .
 ├── basic
 ├── boiler
+├── .commitlintrc.json
 ├── .editorconfig
 ├── .eslintrc
 ├── .gitignore
+├── .huskyrc
 ├── .np-config.json
 ├── LICENSE
 ├── package.json
