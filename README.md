@@ -30,7 +30,7 @@ $ npm i -D electron@latest # Project install
 A basic `Electron` app would have the following folder structure:
 
 ```text
-your-app/
+app/
 ├── package.json
 ├── main.js
 └── index.html
@@ -42,16 +42,14 @@ your-app/
 
 ```md
 .
-├── basic
-├── boiler
-├── .commitlintrc.json
-├── .editorconfig
-├── .eslintrc
-├── .gitignore
-├── .huskyrc
-├── .np-config.json
+├── app
+│   └── main.js          # Electron app
+├── .editorconfig        # Editor configuration
+├── .eslintrc            # Eslint configuration
+├── .gitignore           # Git ignore rules
+├── .np-config.json      # Npm publish (np) configuration
 ├── LICENSE
-├── package.json
+├── package.json         # Npm package configuration
 └── README.md
 ```
 
