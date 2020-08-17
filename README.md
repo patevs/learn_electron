@@ -6,10 +6,9 @@
 
 ## Links and Resources
 
-* [`Electron`](https://github.com/electron/electron)
+* [`electron/electron`](https://github.com/electron/electron)
   * [Documentation](https://electronjs.org/docs)
-
-* [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start)
+  * [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start)
 
 ---
 
@@ -42,8 +41,10 @@ app/
 
 ```md
 .
-├── app
-│   └── main.js          # Electron app
+├── app                  # Electron app
+│   ├── package.json
+│   ├── main.js
+│   └── index.html
 ├── .editorconfig        # Editor configuration
 ├── .eslintrc            # Eslint configuration
 ├── .gitignore           # Git ignore rules
