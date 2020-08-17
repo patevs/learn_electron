@@ -14,7 +14,7 @@
     "git": ">=2.11"
   },
   "scripts": {
-    "clean": "npx trash-cli boiler/lib",
+    "clean": "npx del-cli app/lib",
     "copy-libs": "mkdirp boiler/lib && ncp node_modules/photonkit/ boiler/lib/photonkit/",
     "preinstall": "npm run clean",
     "postinstall": "npm run copy-libs",
