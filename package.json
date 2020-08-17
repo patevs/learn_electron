@@ -15,7 +15,7 @@
   },
   "scripts": {
     "clean": "npx del-cli app/lib",
-    "copy-libs": "mkdirp boiler/lib && ncp node_modules/photonkit/ boiler/lib/photonkit/",
+    "copy-libs": "mkdirp app/lib && ncp node_modules/photonkit/ app/lib/photonkit/",
     "preinstall": "npm run clean",
     "postinstall": "npm run copy-libs",
     "start:basic": "cd basic && yarn run start",
