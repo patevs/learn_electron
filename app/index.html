@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Electron Bootstrap/jQuery Boilerplate App</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha512-rO2SXEKBSICa/AfyhEK5ZqWFCOok1rcgPYfGOqtX35OyiraBg6Xa4NnBJwXgpIRoXeWjcAmcQniMhp22htDc6g==" crossorigin="anonymous" />
+  <!-- Photonkit CSS -->
+  <link rel="stylesheet" href="lib/photonkit/dist/css/photon.css" />
+</head>
+
+<body>
+  <!-- Photonkit -->
+  <div class="container-fluid">
+    <div class="window">
+      <header class="toolbar toolbar-header">
+        <div class="text-center">
+          <h1 class="text-success">Electron Bootstrap/jQuery Boilerplate</h1>
+          <small>Nothing to see here, move along...</small>
+          <hr style="width:75%; margin: 1em auto; border: 1px solid green" />
+        </div>
+      </header>
+      <div class="window-content">
+        <div class="pane-group">
+          <div class="pane-sm sidebar" style="padding-left: .5em; padding-top: .5em">
+            <span>Node:
+              <span class="label label-default">
+                <script>document.write(process.versions.node);</script>
+              </span>
+            </span>
+            <br />
+            <span>Chrome:
+              <span class="label label-default">
+                <script>document.write(process.versions.chrome);</script>
+              </span>
+            </span>
+            <br />
+            <span>Electron:
+              <span class="label label-default">
+                <script>document.write(process.versions.electron);</script>
+              </span>
+            </span>
+            <hr style="width:75%; margin: 1em auto; margin-left: 1em; border: 1px solid green" />
+          </div>
+          <div class="pane">...content...</div>
+        </div>
+      </div>
+      <footer class="toolbar toolbar-footer">
+        <h1 class="title">---Footer---</h1>
+      </footer>
+    </div>
+  </div>
+
+  <!-- JQuery JS -->
+  <script>
+    window.jQuery = window.$ = require('jquery');
+  </script>
+  <!--
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  -->
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha512-I5TkutApDjnWuX+smLIPZNhw+LhTd8WrQhdCKsxCFRSvhFx2km8ZfEpNIhF9nq04msHhOkE8BMOBj5QE07yhMA==" crossorigin="anonymous"></script>
+</body>
+
+</html>

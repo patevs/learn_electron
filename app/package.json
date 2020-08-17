@@ -1,0 +1,12 @@
+{
+  "name": "electron-boilerplate-app",
+  "version": "0.0.0",
+  "description": "Electron bootstrap and jquery boilerplate app",
+  "author": "PatEvs",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  }
+}
+
