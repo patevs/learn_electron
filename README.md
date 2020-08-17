@@ -1,6 +1,6 @@
 # Learn Electron
 
-> `Electron` is an open-source framework developed and maintained by GitHub. Electron allows for the development of desktop GUI applications using web technologies: It combines the Chromium rendering engine and the `Node.js` runtime.
+> [`Electron`](https://electronjs.org) is an open-source framework developed and maintained by GitHub. Electron allows for the development of desktop GUI applications using web technologies: It combines the Chromium rendering engine and the `Node.js` runtime.
 
 ---
 
@@ -20,7 +20,7 @@
 ```bash
 $ npm i -g electron        # Globally install
 $ npm i -D electron@latest # Project install
-# Electron   9.1.0
+# Electron   9.2.0
 # Node       12.14.1
 # Chromium   83.0.4103.122
 ```
