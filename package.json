@@ -20,6 +20,7 @@
     "postinstall": "npm run copy-libs",
     "start:basic": "cd basic && yarn run start",
     "start:boiler": "electron boiler/",
+    "start": "electron app/",
     "release": "np",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 0"
