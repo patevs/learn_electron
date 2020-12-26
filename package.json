@@ -20,7 +20,6 @@
     "postinstall": "npm run copy-libs",
     "start": "electron app/",
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 0",
     "release": "np"
   },
   "dependencies": {
