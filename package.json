@@ -36,7 +36,7 @@
     "eslint": "^7.16.0",
     "husky": "^4.3.6",
     "ncp": "^2.0.0",
-    "np": "^7.0.0"
+    "np": "^7.5.0"
   },
   "peerDependencies": {
     "popper.js": "^1.16.1"
