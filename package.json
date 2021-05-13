@@ -32,7 +32,7 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "commitlint-config-gitmoji": "^2.2.5",
-    "electron-reloader": "^1.1.0",
+    "electron-reloader": "^1.2.1",
     "eslint": "^7.26.0",
     "husky": "^4.3.6",
     "ncp": "^2.0.0",
@@ -46,8 +46,14 @@
       "gitmoji"
     ],
     "rules": {
-      "subject-empty": [0, "never"],
-      "type-empty": [0, "never"]
+      "subject-empty": [
+        0,
+        "never"
+      ],
+      "type-empty": [
+        0,
+        "never"
+      ]
     }
   },
   "husky": {
