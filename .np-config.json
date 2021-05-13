@@ -1,6 +1,6 @@
 {
   "anyBranch": false,
-  "cleanup": true,
+  "cleanup": false,
   "tests": false,
   "yolo": false,
   "publish": false,
