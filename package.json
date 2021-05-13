@@ -41,14 +41,18 @@
   "peerDependencies": {
     "popper.js": "^1.16.1"
   },
+  "commitlint": {
+    "extends": [
+      "gitmoji"
+    ],
+    "rules": {
+      "subject-empty": [0, "never"],
+      "type-empty": [0, "never"]
+    }
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
-  },
-  "commitlint": {
-    "extends": [
-      "./node_modules/commitlint-config-gitmoji"
-    ]
   }
 }
