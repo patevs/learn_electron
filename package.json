@@ -20,7 +20,7 @@
     "start": "electron app/",
     "lint": "eslint .",
     "updates": "npx ncu",
-    "release": "np"
+    "release": "np --ignore-scripts"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
