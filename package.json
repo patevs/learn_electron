@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
-    "commitlint-config-gitmoji": "^1.0.1",
+    "commitlint-config-gitmoji": "^2.2.5",
     "electron-reloader": "^1.1.0",
     "eslint": "^7.26.0",
     "husky": "^4.3.6",
