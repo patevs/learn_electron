@@ -19,6 +19,7 @@
     "postinstall": "npm run copy-libs",
     "start": "electron app/",
     "lint": "eslint .",
+    "updates": "npx ncu",
     "release": "np"
   },
   "dependencies": {
