@@ -48,10 +48,10 @@ app/
 ├── .editorconfig        # Editor configuration
 ├── .eslintrc            # Eslint configuration
 ├── .gitignore           # Git ignore rules
-├── .np-config.json      # Npm publish (np) configuration
-├── LICENSE
-├── package.json         # Npm package configuration
-└── README.md
+├── .np-config.json      # NPM publish (np) configuration
+├── LICENSE              # Project License
+├── package.json         # NPM package configuration
+└── README.md            # Project README
 ```
 
 ---
