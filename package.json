@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
-    "electron": "^11.4.8",
+    "electron": "^11.4.11",
     "jquery": "^3.6.0",
     "mkdirp": "^1.0.4",
     "photonkit": "^0.1.2"
