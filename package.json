@@ -23,7 +23,7 @@
     "release": "np"
   },
   "dependencies": {
-    "bootstrap": "^4.6.0",
+    "bootstrap": "^5.1.1",
     "electron": "^11.5.0",
     "jquery": "^3.6.0",
     "mkdirp": "^1.0.4",
