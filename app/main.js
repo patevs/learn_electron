@@ -1,5 +1,5 @@
 /**
- * 	app/main.js
+ * *  app/main.js
  */
 
 "use strict";
@@ -25,7 +25,11 @@ function createWindow() {
 		width: 900,
 		height: 640,
 		webPreferences: {
-			nodeIntegration: true
+			nodeIntegration: true,
+			// https://github.com/electron/electron/issues/18139#issuecomment-796952401
+			contextIsolation: false,
+			// https://github.com/electron/electron/issues/28511#issuecomment-914465904
+			nativeWindowOpen: true
 		}
 	});
 
