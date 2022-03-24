@@ -30,7 +30,7 @@
     "photonkit": "^0.1.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
+    "@commitlint/cli": "^16.2.3",
     "commitlint-config-gitmoji": "^2.2.5",
     "electron-reloader": "^1.2.3",
     "eslint": "^8.11.0",
