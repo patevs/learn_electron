@@ -19,9 +19,9 @@
 ```bash
 $ npm i -g electron        # Globally install
 $ npm i -D electron@latest # Project install
-# Electron   14.0.1
-# Node       14.17.0
-# Chromium   93.0.4577.63
+# Electron   17.2.0
+# Node       16.13.0
+# Chromium   98.0.4758.109
 ```
 
 ## Application Structure
