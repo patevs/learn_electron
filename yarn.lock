@@ -1078,10 +1078,10 @@ electron-reloader@^1.2.3:
     electron-is-dev "^1.2.0"
     find-up "^5.0.0"
 
-electron@^14.0.1:
-  version "14.0.1"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-14.0.1.tgz#967da47895a77a9af8a7938e9266cd4a75ab24c4"
-  integrity sha512-1XILvfE5mQEBz5L/QeNfcwC3PxAIjwMyA3GR8Naw5C0IKAnHl3lAdjczbtGX8nqbcEpOAVo+4TMSpcPD3zxe8Q==
+electron@^14.2.8:
+  version "14.2.8"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-14.2.8.tgz#acc687b0218b591c072d3a0fdda4ee426aeac160"
+  integrity sha512-K22hI0NVkC7sU5sMDXwW1lxAjhNsFXL2wuJF7Ij9CyWqW/j6AtIMfDkUoM5mXaTg0FGUlmlNr9Rh7cp8bBn6Sg==
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^14.6.2"
