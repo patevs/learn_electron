@@ -36,8 +36,7 @@
     "electron-reloader": "^1.2.3",
     "eslint": "^8.25.0",
     "husky": "^8.0.1",
-    "ncp": "^2.0.0",
-    "np": "^7.6.1"
+    "ncp": "^2.0.0"
   },
   "peerDependencies": {
     "@popperjs/core": "^2.10.1"
