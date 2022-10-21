@@ -45,6 +45,7 @@ app/
 │   ├── package.json
 │   ├── main.js
 │   └── index.html
+├── .commitlintrc        # Commitlint configuration
 ├── .editorconfig        # Editor configuration
 ├── .eslintrc            # Eslint configuration
 ├── .gitignore           # Git ignore rules
