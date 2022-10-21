@@ -21,7 +21,7 @@
     "start": "electron app/",
     "lint": "eslint .",
     "updates": "npx ncu",
-    "release": "np"
+    "release": "npx np"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
