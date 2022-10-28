@@ -36,5 +36,8 @@
   },
   "peerDependencies": {
     "@popperjs/core": "^2.11.6"
+  },
+  "resolutions": {
+    "got": "^12.5.2"
   }
 }
