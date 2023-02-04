@@ -22,7 +22,7 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "electron": "^21.2.0",
-    "jquery": "^3.6.1",
+    "jquery": "^3.6.3",
     "mkdirp": "^1.0.4",
     "photonkit": "^0.1.2"
   },
