@@ -30,7 +30,7 @@
     "@commitlint/cli": "^17.4.2",
     "commitlint-config-gitmoji": "^2.2.10",
     "electron-reloader": "^1.2.3",
-    "eslint": "^8.26.0",
+    "eslint": "^8.33.0",
     "husky": "^8.0.3",
     "ncp": "^2.0.0"
   },
